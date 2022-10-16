@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: rgb(60, 60, 60);
+	color: white;
+	text-align: center;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+table {
+	margin: 0 auto;
+	border-spacing: 30px;
+}
+
+.card2 {
+	border: 1px solid white;
+	background-color: rgb(30, 215, 96);
+	color: black;
+	padding: 50px;
+	border-radius: 25px;
+	margin: 40px;
+}
+
+.addBtn {
+	padding: 10px;
+	margin-top:10px;
+
+}

@@ -1,0 +1,138 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	color: #6a6f8c;
+	background: #c8c8c8;
+	font: 600 16px/18px 'Open Sans', sans-serif;
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('https://images.pexels.com/photos/164853/pexels-photo-164853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+	
+}
+
+h1,h2,p{
+	text-align: center;
+	padding-bottom: 20px;
+	width: 100%;
+	color: #fff;
+}
+
+a.song2{
+		color: #fff;
+	
+}
+
+h1.title{
+	font-size:50px;
+}
+
+h3{
+	color:white;
+	margin-left:420px;
+	padding-bottom:40px;
+}
+
+a.rrr{
+	color: white;
+	text-decoration: none;
+	font-size:40px;
+	padding-left:10px;
+}
+
+.text1{
+			padding-top:45px;
+	
+	
+}
+
+*, :after, :before {
+	box-sizing: border-box
+}
+
+.clearfix:after, .clearfix:before {
+	content: '';
+	display: table
+}
+
+.clearfix:after {
+	clear: both;
+	display: block
+}
+
+.container {
+	display: grid;
+    grid-template-columns: auto auto auto auto;
+        
+}
+
+.login-html {
+	
+background: rgba(45, 94, 42, 0.9);
+    border-radius: 20px;
+    padding: 50px;
+    border-radius: 25px;
+    margin: 40px;
+	}
+
+
+.login-html .tab, .login-form .group .label, .login-form .group .button
+	{
+	text-transform: uppercase;
+}
+
+.login-form {
+	min-height: 345px;
+	position: relative;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+
+.login-form .group {
+	margin-bottom: 15px;
+	text-align:center;
+}
+
+.login-form .group .label, .login-form .group .input, .login-form .group .button
+	{
+	width: 100%;
+	color: #fff;
+	display: block;
+}
+
+.login-form .group .input, .login-form .group .button {
+	border: none;
+	padding: 15px 20px;
+	border-radius: 25px;
+	background: rgba(255, 255, 255, .1);
+}
+
+.login-form .group .label {
+	color: #aaa;
+	font-size: 12px;
+}
+
+.login-form .group .button {
+	background: rgba(79, 158, 75, 0.9);
+}
+
+.addBtn {
+	border-radius: 50%;
+  	padding-top:20px;
+    padding-bottom:20px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: rgba(255, 255, 255, .1);
+    margin-right:20px;
+  
+}
+a.deletebutton{
+  	padding-top:20px;
+    padding-bottom:20px;
+    color:white;
+}
+
+
